@@ -4,16 +4,31 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color:#EED3D9;
     color: #333;
+    font-family: "Jua", sans-serif;
 }
 
 /* 헤더 스타일 */
 header {
-    background-color: #333;
+    background-color:#B5C0D0 ;
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+
+
+.point{
+    color:#EED3D9;
+}
+
+.color{
+    color:#B5C0D0;
+}
+
+div ul{
+    color:rgb(59, 54, 55);
+    font-size:18px;
 }
 
 /* 섹션 스타일 */
@@ -21,7 +36,7 @@ section {
     margin: 20px;
     padding: 20px;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,7 +58,7 @@ section h2 {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: lemonchiffon;
+    /*background-color: lemonchiffon;*/
     padding: 5px;
 }
 
@@ -52,13 +67,20 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    /*background-color: pink;*/
 }
 
+.pything{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+
 .profile-image {
-    width: 150px;
-    height: 180px;
-    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    border-radius: 20%;
 
 }
 
@@ -96,12 +118,12 @@ section h2 {
 
 .keywords span {
     display: inline-block;
-    background-color: #e0e0e0;
-    color: #333;
-    border-radius: 5px;
-    padding: 5px 10px;
+    background-color: #B5C0D0;
+    color:white ;
+    border-radius: 50px;
+    padding: 10px 30px;
     margin-right: 10px;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 /* 기술 스택 스타일 */
@@ -145,7 +167,7 @@ section h2 {
 }
 
 .progress-bar {
-    background-color: #4caf50;
+    background-color: #B5C0D0;
     border-radius: 10px;
     height: 100%;
     transition: width 0.3s ease;
@@ -160,7 +182,7 @@ section h2 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #B5C0D0;
     color: white;
     margin-top: 20px;
 }
