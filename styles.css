@@ -1,0 +1,166 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* 섹션 스타일 */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 각 섹션의 제목 스타일 */
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+/* 소개 섹션 스타일 */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: lemonchiffon;
+    padding: 5px;
+}
+
+.intro-photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.profile-image {
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+
+}
+
+.intro-details {
+    flex: 2;
+}
+
+.intro-details h2 {
+    margin-top: 0;
+}
+
+.intro-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.intro-details ul li {
+    margin-bottom: 5px;
+}
+
+.intro-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro-text {
+    margin: 0;
+}
+
+.keywords {
+    margin-top: 10px;
+}
+
+.keywords span {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+/* 기술 스택 스타일 */
+.skills .study-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.book-image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.book-details {
+    flex: 1;
+}
+
+.book-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.book-details p {
+    margin: 5px 0;
+}
+
+.progress-container {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    border-radius: 10px;
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+/* 경험 및 연락처 스타일 */
+.experience, .contact {
+    margin-top: 20px;
+}
+
+/* 푸터 스타일 */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
